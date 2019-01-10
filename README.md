@@ -182,7 +182,7 @@ So now our simple Flask app folder contains this file structure:
   ├── requirements.txt
   └── runtime.txt
 ~~~
-
+<!--
 Before we deploy our app on to Heroku, we'll want to test it on our own system _again_ -- but this time, instead of using `python app.py`, [we'll use the Heroku toolbelt subcommand, __local__](https://devcenter.heroku.com/articles/deploying-python#build-your-app-and-run-it-locally):
 
 ~~~sh
@@ -398,3 +398,4 @@ Or, if you'd rather do it from the command-line with the Heroku toolbelt, use th
 ~~~sh
 $ heroku apps:destroy whatever-yourappnameis-99999
 ~~~
+-->
