@@ -1,6 +1,6 @@
 
 
-### tl;dr 
+<!-- ### tl;dr 
 
 A walkthrough on how to get set up with Heroku and its toolkit and then how to deploy a simple web application (for free) on the Heroku Cloud. 
 
@@ -26,10 +26,8 @@ Review the lessons on [creating a simple Flask app if you've forgotten how to pu
 
 Some of the instructions in this tutorial comes from these this official Heroku tutorial: [Getting Started on Heroku with Python](https://devcenter.heroku.com/articles/getting-started-with-python). However, be warned, the official tutorial includes a lot of extra steps that may not apply to your system. I've tried to filter them to a minimum.
 
-
 ------------------
-
-
+-->
 
 # Sign up for Heroku
 
@@ -37,6 +35,7 @@ Heroku, being a Software as a Service (SaaS)-type of service, requires you to cr
 
 You can create an account at this URL: [https://signup.heroku.com/dc](https://signup.heroku.com/dc)
 
+<!--
 ## Download the Heroku toolbelt
 
 Heroku has a command-line "toolbelt" that we must download and install in order commands that will simplify our communication with the Heroku servers. The toolbelt can be downloaded at: [https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)
@@ -57,7 +56,7 @@ $ heroku login
 
 ![readme_assets/images/heroku-login.gif](readme_assets/images/heroku-login.gif)
 
-
+-->
 
 # Let's create a Flask app
 
