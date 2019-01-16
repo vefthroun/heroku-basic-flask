@@ -182,6 +182,8 @@ So now our simple Flask app folder contains this file structure:
   ├── requirements.txt
   └── runtime.txt
 ~~~
+
+Sjá vef á Heroku: https://vef2019-1.herokuapp.com/
 <!--
 Before we deploy our app on to Heroku, we'll want to test it on our own system _again_ -- but this time, instead of using `python app.py`, [we'll use the Heroku toolbelt subcommand, __local__](https://devcenter.heroku.com/articles/deploying-python#build-your-app-and-run-it-locally):
 
