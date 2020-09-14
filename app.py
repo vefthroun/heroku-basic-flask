@@ -12,9 +12,9 @@ def homepage():
     <p>It is currently {time}.</p>
     <p><a href="/sida2" title="Síða 2">Síða 2 </a> | <a href="/sida3" title="Síða 3">Síða 3 </a></p>
     <img src="http://loremflickr.com/600/400" />
-    """ .format(time=the_time)
+    """.format(time=the_time)
 
 
 if __name__ == '__main__':
-    app.run()
-    #app.run(debug=True, use_reloader=True)
+    #app.run()
+    app.run(debug=True, use_reloader=True)
