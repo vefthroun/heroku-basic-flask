@@ -1,34 +1,4 @@
 
-
-<!-- ### tl;dr 
-
-A walkthrough on how to get set up with Heroku and its toolkit and then how to deploy a simple web application (for free) on the Heroku Cloud. 
-
-To see a more advanced Flask app that uses USGS data and Google APIs, checkout this repo: [datademofun/heroku-flask-quakes-lesssimple](https://github.com/datademofun/heroku-flask-quakes-lesssimple)
-
-This is a long README of the steps, but all the actual code and configuration for this app is included in this repo. You can copy and deploy it through your own Heroku account.
-
-
-# Deploying a simple Flask app to the cloud via Heroku
-
-This walkthrough will acquaint you with the [popular Heroku cloud application platform](https://devcenter.heroku.com/start). Previously, we have been able to create Python Flask apps (see lessons [here](http://www.compjour.org/lessons/flask-single-page/) and [here](http://www.compjour.org/lessons/flask-recalls/)) and run them locally on our own computers. With a cloud service, we are able to put our websites onto the public World Wide Web, with a publicly accessible URL.
-
-A live version of this lesson's very simple app can be found at this URL:
-https://warm-scrubland-16039.herokuapp.com/
-
-(it'll be slow because I'm using Heroku's free tier)
-
-To reduce the number of new moving parts to learn about, [we'll only worry about creating the simplest of Flask apps](http://www.compjour.org/lessons/flask-single-page/) -- the lesser the complexity, the fewer the dependencies, and thus, the fewer the conflicts. So pay attention to the steps that involve touching the Heroku service and toolset.
-
-Deploying an app on the cloud just means that we're putting code on a computer that we have no direct control over. Writing the Python app code is the same as it was before, but we have to follow a few Heroku conventions before Heroku will execute our code on its own computers.
-
-Review the lessons on [creating a simple Flask app if you've forgotten how to put together a simple Flask app](http://www.compjour.org/lessons/flask-single-page/).
-
-Some of the instructions in this tutorial comes from these this official Heroku tutorial: [Getting Started on Heroku with Python](https://devcenter.heroku.com/articles/getting-started-with-python). However, be warned, the official tutorial includes a lot of extra steps that may not apply to your system. I've tried to filter them to a minimum.
-
-------------------
--->
-
 # Sign up for Heroku
 
 Heroku, being a Software as a Service (SaaS)-type of service, requires you to create an account and login before you can start using its computers. Don't worry, creating an account and running a simple app is free and doesn't require a credit card.
@@ -400,4 +370,33 @@ Or, if you'd rather do it from the command-line with the Heroku toolbelt, use th
 ~~~sh
 $ heroku apps:destroy whatever-yourappnameis-99999
 ~~~
+-->
+
+<!-- ### tl;dr 
+
+A walkthrough on how to get set up with Heroku and its toolkit and then how to deploy a simple web application (for free) on the Heroku Cloud. 
+
+To see a more advanced Flask app that uses USGS data and Google APIs, checkout this repo: [datademofun/heroku-flask-quakes-lesssimple](https://github.com/datademofun/heroku-flask-quakes-lesssimple)
+
+This is a long README of the steps, but all the actual code and configuration for this app is included in this repo. You can copy and deploy it through your own Heroku account.
+
+
+# Deploying a simple Flask app to the cloud via Heroku
+
+This walkthrough will acquaint you with the [popular Heroku cloud application platform](https://devcenter.heroku.com/start). Previously, we have been able to create Python Flask apps (see lessons [here](http://www.compjour.org/lessons/flask-single-page/) and [here](http://www.compjour.org/lessons/flask-recalls/)) and run them locally on our own computers. With a cloud service, we are able to put our websites onto the public World Wide Web, with a publicly accessible URL.
+
+A live version of this lesson's very simple app can be found at this URL:
+https://warm-scrubland-16039.herokuapp.com/
+
+(it'll be slow because I'm using Heroku's free tier)
+
+To reduce the number of new moving parts to learn about, [we'll only worry about creating the simplest of Flask apps](http://www.compjour.org/lessons/flask-single-page/) -- the lesser the complexity, the fewer the dependencies, and thus, the fewer the conflicts. So pay attention to the steps that involve touching the Heroku service and toolset.
+
+Deploying an app on the cloud just means that we're putting code on a computer that we have no direct control over. Writing the Python app code is the same as it was before, but we have to follow a few Heroku conventions before Heroku will execute our code on its own computers.
+
+Review the lessons on [creating a simple Flask app if you've forgotten how to put together a simple Flask app](http://www.compjour.org/lessons/flask-single-page/).
+
+Some of the instructions in this tutorial comes from these this official Heroku tutorial: [Getting Started on Heroku with Python](https://devcenter.heroku.com/articles/getting-started-with-python). However, be warned, the official tutorial includes a lot of extra steps that may not apply to your system. I've tried to filter them to a minimum.
+
+------------------
 -->
