@@ -60,7 +60,7 @@ You should be able to run this app on your own system via the familiar invocatio
 $ python app.py
 ~~~
 
-
+<!--
 # Specifying dependencies for deploying Heroku
 
 (the following comes from Heroku's guide to [Deploying Python and Django Apps on Heroku](https://devcenter.heroku.com/articles/deploying-python))
