@@ -1,11 +1,11 @@
-
+<!--
 # Sign up for Heroku
 
 Heroku, being a Software as a Service (SaaS)-type of service, requires you to create an account and login before you can start using its computers. Don't worry, creating an account and running a simple app is free and doesn't require a credit card.
 
 You can create an account at this URL: [https://signup.heroku.com/dc](https://signup.heroku.com/dc)
 
-<!--
+
 ## Download the Heroku toolbelt
 
 Heroku has a command-line "toolbelt" that we must download and install in order commands that will simplify our communication with the Heroku servers. The toolbelt can be downloaded at: [https://toolbelt.heroku.com/](https://toolbelt.heroku.com/)
